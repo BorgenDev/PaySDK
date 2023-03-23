@@ -16,11 +16,11 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "PaySDK"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.3"
   spec.summary      = "A sdk for paymenting in online shops."
   spec.description  = "A short description of PaySkd. This pod help for payment in online shops"
 
-  spec.homepage     = "https://github.com/BorgenDev/PaySDK"
+  spec.homepage     = "http://github.com/BorgenDev/PaySDK"
 
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author             = { "ArseniyDev" => "arseniy13dry@gmail.com" }
