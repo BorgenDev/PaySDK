@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "PaySDK"
-  spec.version      = "1.0.5"
+  spec.name         = "PaySDK_"
+  spec.version      = "1.0.8"
   spec.summary      = "A sdk for paymenting in online shops."
   spec.description  = "A short description of PaySkd. This pod help for payment in online shops"
 
@@ -25,6 +25,6 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author             = { "ArseniyDev" => "arseniy13dry@gmail.com" }
   spec.platform     = :ios, "12.0"
-  spec.source       = { :git => "http://github.com/BorgenDev/PaySDK.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/BorgenDev/PaySDK.git", :tag => "#{spec.version}" }
     spec.vendored_frameworks = "SberPaySDK.xcframework"
 end
