@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "PaySDK_"
-  spec.version      = "1.0.8"
+  spec.version      = "1.1.1"
   spec.summary      = "A sdk for paymenting in online shops."
   spec.description  = "A short description of PaySkd. This pod help for payment in online shops"
 
