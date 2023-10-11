@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "PaySDK_"
-  spec.version      = "1.1.10"
+  spec.version      = "1.1.11"
   spec.summary      = "A sdk for paymenting in online shops."
   spec.description  = "A short description of PaySkd. This pod help for payment in online shops"
 
@@ -26,5 +26,5 @@ Pod::Spec.new do |spec|
   spec.author             = { "ArseniyDev" => "arseniy13dry@gmail.com" }
   spec.platform     = :ios, "12.0"
   spec.source       = { :git => "https://github.com/BorgenDev/PaySDK.git", :tag => "#{spec.version}" }
-    spec.vendored_frameworks = "SberPaySDK.xcframework"
+    spec.vendored_frameworks = "SPaySdk.xcframework"
 end
